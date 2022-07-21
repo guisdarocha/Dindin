@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: #2E948A;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+#logo {
+    margin: 26px 0px 26px 82px;
+}
+
+header ul {
+    margin: 47px 103px;
+}
+header ul li {
+    display: inline-block;
+    margin: 0px 25px; 
+}
+
+header ul li a{
+    font-size: 20px;
+    color: #FDFDFD;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    display: grid;
+    margin: 81px 540px 95px 82px;
+    max-width: 317px;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+main h2{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+.linha {
+    width: 1157px;
+    height: 5px;
+    background-color: #C4C4C4;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.container{
+    max-width: 1157px;
+    display: flex;
+    margin: 95px 98px 202px 82px;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    display: column;
+}
+
+.card{
+    display: inline-flex;
+    height: 380px;
+    gap: 53px;
+    align-items: center;
+    margin-top: 107px;
+    margin-bottom: 90px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.text{
+    margin-top: 37px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    max-width: 724;
+}
+
+.cta{
+    margin-top: 53px;
+    width: 216px;
+    height: 25px;
+    padding: 13px 8px 13px 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #419488;
+    border-radius: 62px;
+}
+
+footer {
+    background-color: #2E948A;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer #logo{
+    display: flex;
+}
+
+footer ul{
+    align-items: center;
+   text-decoration: none;
+}
+footer li a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .botoes{
+    display: grid;
+    grid-template-columns: 1;
+    padding: 50px;
+}
+
+footer .botaoUm{
+    grid: 10px;
+    padding: 5px 55px;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #009688;
+    margin-bottom: 13px;
+}
+
+footer .botaoDois{
+    grid: 10px;
+    padding: 5px 55px;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #009688;
+
+}
