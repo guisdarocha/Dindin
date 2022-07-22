@@ -95,9 +95,11 @@ main h2{
     line-height: 21px;
     color: #000000;
     max-width: 724;
+
 }
 
 .cta{
+
     margin-top: 53px;
     width: 216px;
     height: 25px;
@@ -112,7 +114,10 @@ main h2{
     background: #419488;
     border-radius: 62px;
 }
-
+.cta a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 footer {
     background-color: #2E948A;
     display: flex;
